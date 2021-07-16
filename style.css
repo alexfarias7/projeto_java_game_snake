@@ -1,0 +1,75 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    color :rgba(255, 255, 255, 0.788);
+    background-color:#232323;
+    
+}
+
+.painel{
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+
+}
+
+.painel .pontos{
+   
+    color:#fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+
+.painel .pontos p{
+    margin-right: 10px;
+    margin-bottom: 20;
+  
+}
+
+#pontos{
+    margin-bottom: 20px;
+}
+.painel button{
+    color: #fff;
+    background: rgb(110, 0, 0);
+    border:none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+}
+
+.painel button:hover{
+    cursor: pointer;
+    opacity: 0.78;
+    background-color: white;
+    color: rgb(110, 0, 0);
+}
+
+.painel .velocidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel .velocidade p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}

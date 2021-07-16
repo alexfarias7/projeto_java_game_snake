@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="snake.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
     
@@ -11,7 +12,35 @@
     <title>Snake Game</title>
 </head>
 <body>
-    <h1>SNAKE GAME!</h1>
+    <h1>SNAKE GAME! 🐍</h1>
+
+    <div class="painel">
+
+        <div class="pontos">
+            <p>Pontuação:</p>
+            <span id="pontos">"Pontuação</span>
+        </div>
+
+       <div class="velocidade">
+        <p>Velocidade:</p>
+
+        <form>
+            <input type="radio" name="velocidade" id="1x" value="1" checked>
+            <label for="1x">1x</label>
+
+            <input type="radio" name="velocidade" id="2x" value="2">
+            <label for="2x">2x</label>
+
+            <input type="radio" name="velocidade" id="3x" value="3">
+            <label for="3x">3x</label>
+        </form>
+    </div>
+
+        <button onclick=restartGame()>Recomeçar</button>
+
+    </div>
+
     <canvas id="snake" width="512" height="512"></canvas>
+
 </body>
 </html>
